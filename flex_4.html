@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            display:flex;
+            align-items:center;
+        }
+        .container{
+            display:flex;
+            flex-direction:column;
+            width:800px;
+            border:1px solid gray;
+        }
+        header{
+            padding-left:20px;
+            border-bottom:1px solid gray;
+        }
+        footer{
+            border-top:1px solid gray;
+            text-align: center;
+            padding: 20px;
+        }
+        .content{
+            display: flex;
+        }
+        .content>nav{
+            border-right: 1px solid gray;
+        }
+        .content>aside{
+            border-left: 1px solid gray;
+        }
+        nav, aside{
+            flex-basis: 150px;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>coding</h1>
+        </header>
+        <section class="content">
+            <nav>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVA</li>
+                </ul>
+            </nav>
+            <main>
+               <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque architecto, consectetur cum harum inventore, eligendi ad quibusdam ratione enim sunt deleniti possimus nesciunt, autem dolorum repellendus ipsum ullam vitae quisquam asperiores? Tempore exercitationem iure corporis, voluptatibus reprehenderit magnam tempora fugiat laborum ut recusandae, nam commodi dolore odio sunt sed, veniam minus illo consequatur a. Sapiente ullam tempora esse dolore, doloremque quidem obcaecati non placeat quas eaque dolorum voluptates alias voluptate ipsam debitis. Consequatur, omnis alias explicabo repellendus dolores autem esse, corrupti quis tempore sint, ullam laboriosam perspiciatis dolore unde? Neque delectus deserunt sapiente reprehenderit modi ipsum corporis sit nostrum est consectetur quod, libero id ea natus, vitae magni quibusdam nisi! Atque vel corporis doloremque nisi unde autem odit nulla voluptatum consectetur, saepe officia asperiores architecto fuga blanditiis repudiandae, exercitationem laborum neque aperiam necessitatibus excepturi soluta, quo a! Nemo id corporis at consequuntur officia delectus, perferendis quod blanditiis, obcaecati voluptatibus ipsum reprehenderit ut sed quam dignissimos quo error, vitae cupiditate molestiae tempora mollitia officiis tempore. Consequatur omnis repellendus quis at, ipsam commodi neque praesentium vel dicta sed necessitatibus, debitis eos corporis alias facere consectetur! Distinctio blanditiis molestias veniam odio laudantium tempora, accusantium quos cum, assumenda, vel voluptas, neque necessitatibus impedit id?
+               </p>
+                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda expedita, unde. Quae, magni sit, alias laudantium temporibus in molestias possimus! Nam, ullam, nobis. Totam molestias alias, officia, libero ad hic!</div>
+                <div>Vitae molestiae laboriosam rem optio, nemo, maxime dolore nam alias unde tenetur voluptatum quod fuga, eveniet pariatur impedit possimus veniam dicta esse neque illo illum. Quasi molestiae minima, doloribus quisquam.</div>
+                <div>Voluptates, deleniti cumque. Explicabo dicta officia laborum sunt delectus sequi hic, eius veritatis! Vero, aperiam, facilis. Tenetur nulla et, veritatis aspernatur, earum consequatur aliquid eligendi voluptatibus ipsum perspiciatis eius impedit.</div>
+                <div>Numquam eius nesciunt et, minus qui necessitatibus deleniti blanditiis ex dolor totam. Minima deserunt eveniet facilis, officiis illo quo, fugit esse, ad quod nulla dicta cupiditate provident dignissimos beatae magni!</div>
+            </main>
+            <aside>
+                ADVERTISEMENT
+            </aside>
+        </section>
+        <footer>
+            <a href="">홈페이지</a>
+        </footer>
+    </div>
+</body>
+</html>
